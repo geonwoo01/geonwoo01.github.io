@@ -5,10 +5,10 @@
 <body>
 서버 도메인 이름:<%=request.getSeverName()%><br/>
 서버 포트:<%= request.getSeverPort()%><br/>
-서버 도메인 이름:<%=request.getContextPath()%><br/>
-서버 도메인 이름:<%=request.getRemoteAddr()%><br/>
-서버 도메인 이름:<%=request.getProtocol()%<br/>
-서버 도메인 이름:<%=request.getMethod()%<br/>
-서버 도메인 이름:<%=request.getQueryString()%><br/>
+컨텍스트경로:<%=request.getContextPath()%><br/>
+클라이언주소:<%=request.getRemoteAddr()%><br/>
+요청 프로토콜:<%=request.getProtocol()%<br/>
+요청 방식:<%=request.getMethod()%<br/>
+질의 내용:<%=request.getQueryString()%><br/>
 </body>
 </html>
