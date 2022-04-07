@@ -8,8 +8,8 @@
 <section>
   <h2>JSP form</h2>
   <section>
-    <h2>날짜:<%= request.getParameter("namex"); %><br/></h2>
-    <h2>시간:<%= request.getParameter("emailx"); %><br/></h2>
+    <h2>날짜:<%= request.getParameter("namex")%><br/></h2>
+    <h2>시간:<%= request.getParameter("emailx")%><br/></h2>
   </section>
 </section>
 </body></html>
